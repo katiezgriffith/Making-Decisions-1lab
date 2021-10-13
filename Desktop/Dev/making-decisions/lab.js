@@ -7,7 +7,11 @@
 */
 
 //lCODE HERE
-
+let = lovesCode
+if (lovesCode = true) {
+  console.log('I love to code!')
+}
+else (lovesCode = false)
 // For problems 2-3 use the following lines of code:
 var amysAge = 29
 var brittanisAge = 34
