@@ -28,6 +28,18 @@ var brittanisBirthYear = 1986
 */
 
 //CODE HERE
+var amysAge = 29
+var brittanisAge = 34
+var amysBirthYear = 1991
+var brittanisBirthYear = 1986
+
+if (amysAge < brittanisAge);{
+  console.log (`Brittani is older`);}
+  else (amysAge = brittanisAge);{
+    console.log (`Amy is younger`)
+  }
+  
+
 
 
 ////////// PROBLEM 3 //////////
