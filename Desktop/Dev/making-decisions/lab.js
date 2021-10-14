@@ -33,11 +33,24 @@ var brittanisAge = 34
 var amysBirthYear = 1991
 var brittanisBirthYear = 1986
 
-if (amysAge < brittanisAge);{
+if (amysAge <= brittanisAge); {
   console.log (`Brittani is older`);}
-  else (amysAge = brittanisAge);{
-    console.log (`Amy is younger`)
-  }
+  
+  else (brittanisAge < amysAge); {
+   console.log (`Amy is older`)
+ }
+
+
+
+
+
+
+
+
+    // block of code to be executed if the condition1 is false and condition2 is true
+  
+    // block of code to be excuted if the condition1 is false and condition2 is false
+  
   
 
 
