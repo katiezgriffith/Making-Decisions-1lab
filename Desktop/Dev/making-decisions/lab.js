@@ -7,12 +7,12 @@
 */
 
 //lCODE HERE
-let = 'lovesCode'
+let lovesCode = true
 
 if (lovesCode = true) {
   console.log('I love to code!')
 }
-else (lovesCode => false); {
+else  {
   console.log("Coding has its challenges.")
 }
 // For problems 2-3 use the following lines of code:
@@ -28,29 +28,20 @@ var brittanisBirthYear = 1986
 */
 
 //CODE HERE
-var amysAge = 29
-var brittanisAge = 34
-var amysBirthYear = 1991
-var brittanisBirthYear = 1986
 
-if (amysAge <= brittanisAge); {
-  console.log (`Brittani is older`);}
+
+if (amysAge < brittanisAge); {
+  console.log (`Brittani is older`);
+}
   
-  else (brittanisAge < amysAge); {
-   console.log (`Amy is older`)
+else if (amysAge > brittanisAge); {
+   console.log (`Amy is older`);
+ }  
+
+else {
+   console.log (`Same age`)
  }
 
-
-
-
-
-
-
-
-    // block of code to be executed if the condition1 is false and condition2 is true
-  
-    // block of code to be excuted if the condition1 is false and condition2 is false
-  
   
 
 
@@ -63,7 +54,9 @@ if (amysAge <= brittanisAge); {
 
 //CODE HERE
 
-
+if (brittanisBirthYear === amysBirthYear); {
+  console.log (`Amy and Brittani were born in same year`);
+}
 ////////// PROBLEM 4 //////////
 
 let temperature = 55
