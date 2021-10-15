@@ -76,7 +76,7 @@ console.log ("A")
 
 
   else if 
-  (score >= 80 || score <= 89){
+  (score >= 80 || score <= 89) {
   console.log ("B")
 }
 
