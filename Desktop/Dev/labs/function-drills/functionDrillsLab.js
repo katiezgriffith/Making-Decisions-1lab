@@ -5,6 +5,11 @@
 */
 
 //CODE HERE
+ 
+function helloWorld(firstArg, secondArg){
+  console.log(firstArg, secondArg)
+}
+helloWorld('Hello', 'World')
 
 
 
