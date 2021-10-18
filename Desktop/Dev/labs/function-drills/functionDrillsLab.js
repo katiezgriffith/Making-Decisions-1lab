@@ -57,6 +57,12 @@ greeting('Jake')
 */
 
 //CODE HERE
+const sum = add
+function add(num1,num2){
+  console.log(num1+num2)
+}
+return sum( 3, 9)
+
 
 
 ////////////////// PROBLEM 5 ////////////////////
