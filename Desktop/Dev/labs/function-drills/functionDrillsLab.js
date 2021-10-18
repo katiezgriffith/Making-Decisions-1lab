@@ -21,7 +21,10 @@ helloWorld('Hello', 'World')
 */
 
 //CODE HERE
-
+function printName(firstArg){
+  console.log(firstArg)
+}
+printName('Cameron')
 
 ////////////////// PROBLEM 3 ////////////////////
 /*
