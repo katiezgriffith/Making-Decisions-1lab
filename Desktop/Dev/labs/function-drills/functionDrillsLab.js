@@ -76,22 +76,25 @@ return sum( 3, 9)
 
 //CODE HERE
 
+function nameCheck(nameparam) {
 
-////////////////// PROBLEM 6 ////////////////////
-/*
-  Write a function called faveColorFinder that takes in one parameter called color (which will be a string).
-  If the passed in color equals 'red', return 'red is a great color'
-  If the passed in color equals 'green', return 'green is a solid favorite color'
-  If the passed in color equals 'black', return 'so trendy'
-  Otherwise, you should return the string 'you need to evaluate your favorite color choice'
-  Create a variable called 'colorRating' and set it equal to faveColorFinder invoked (called), passing in an argument.
-*/
+  if
+    (nameparam.includes("Steven")) {
+    console.log("What is up Steven?")
+    return "What is up Steven?"
+  } else if 
+(nameparam.includes("Bryan")) {
+  console.log("Hey Bryan!")
+  return "Hey Bryan!"
+}
+  }
+console.log(nameCheck("Steven"))
+ 
 
-//CODE HERE
 
 
-////////////////// PROBLEM 7 ////////////////////
-let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
+
+
 /*
   Create a function called printAllNames that takes in a single argument (an array of names).
   Using a for loop, iterate over that array and console log each name.
