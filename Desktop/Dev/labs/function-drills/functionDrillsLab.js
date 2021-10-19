@@ -21,10 +21,10 @@ helloWorld('Hello', 'World')
 */
 
 //CODE HERE
-function printName(firstArg){
-  console.log(firstArg)
+function printName(firstArg);(secondArg){
+  console.log(firstArg, secondArg)
 }
-printName('Cameron')
+printName('Katie', 'Griffith')
 
 ////////////////// PROBLEM 3 ////////////////////
 /*
@@ -57,11 +57,15 @@ greeting('Jake')
 */
 
 //CODE HERE
-const sum = add
+
 function add(num1,num2){
-  console.log(num1+num2)
+   num1 = Number(num1)
+   num2 = Number(num2)
+   return num1 + num2
+  
 }
-return sum( 3, 9)
+let sum= add( 3, 9)
+console.log(sum)
 
 
 
@@ -76,19 +80,20 @@ return sum( 3, 9)
 
 //CODE HERE
 
-function nameCheck(nameparam) {
+function nameCheck(name) {
 
   if
-    (nameparam.includes("Steven")) {
-    console.log("What is up Steven?")
-    return "What is up Steven?"
-  } else if 
-(nameparam.includes("Bryan")) {
-  console.log("Hey Bryan!")
-  return "Hey Bryan!"
+    (name ===("Steven")) {
+      return "What is up Steven?"
+    } else if (name ==="Bryan") {
+      return "Hey Bryan!"
+}
+else {
+  return ('coolname, ${name}')
 }
   }
-console.log(nameCheck("Steven"))
+  let nameGreeting = nameCheck('Katie')
+console.log(nameGreeting)
  
 
 
